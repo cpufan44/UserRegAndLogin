@@ -8,40 +8,46 @@
 
     <EditText
         android:id="@+id/UserNameReg"
-        android:layout_width="150dp"
+        android:layout_width="328dp"
         android:layout_height="wrap_content"
-        android:textAlignment="textStart"
-        android:hint="Enter username"></EditText>
+        android:hint="Enter username"
+        android:textAlignment="textStart"></EditText>
 
     <EditText
         android:id="@+id/EmailReg"
-        android:layout_width="150dp"
+        android:layout_width="328dp"
         android:layout_height="wrap_content"
-        android:textAlignment="textStart"
-        android:hint="Enter Email"></EditText>
+        android:hint="Enter Email"
+        android:textAlignment="textStart"></EditText>
 
     <EditText
         android:id="@+id/PasswordReg"
-        android:inputType="textPassword"
-        android:layout_width="150dp"
+        android:layout_width="328dp"
         android:layout_height="wrap_content"
-        android:textAlignment="textStart"
-        android:hint="Enter password"></EditText>
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:textAlignment="textStart"></EditText>
+
+    <TextView
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:text="Minimum eight characters, at least one letter and one number"
+        android:textAlignment="center"
+        android:textSize="12dp"></TextView>
 
     <EditText
         android:id="@+id/RePasswordReg"
-        android:inputType="textPassword"
-        android:layout_width="150dp"
+        android:layout_width="328dp"
         android:layout_height="wrap_content"
-        android:textAlignment="textStart"
-        android:hint="Repeat password"></EditText>
+        android:hint="Repeat password"
+        android:inputType="textPassword"
+        android:textAlignment="textStart"></EditText>
 
     <Button
         android:id="@+id/RegisterBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Register"
-        ></Button>
+        android:text="Register"></Button>
 
 
 </LinearLayout>

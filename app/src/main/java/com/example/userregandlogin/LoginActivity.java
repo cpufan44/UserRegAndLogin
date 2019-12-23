@@ -15,11 +15,6 @@ public class LoginActivity extends AppCompatActivity {
         super.onResume();
         setContentView(R.layout.activity_login);
 
-        SharedPreferences preferences = getSharedPreferences("MyPreferences", MODE_PRIVATE);
-        String display = preferences.getString("display", "");
-        TextView displayInfo =  findViewById(R.id.infoLogged);
-        displayInfo.setText(display);
-
     }
 
     @Override
